@@ -24,3 +24,10 @@ function sommeQuestionA()
     var somme=nombre1+nombre2;   
     alert("la somme de " +nombre1+ " et de " +nombre2+ " est égale à : " +somme);
 }
+function sommeQuestionB()
+{
+ var nombre1=parseInt(document.formulaire.nombre1.value);
+ var nombre2=parseInt(document.formulaire.nombre2.value);
+    var somme=nombre1+nombre2;   
+    alert("la somme de " +nombre1+ " et de " +nombre2+ " est égale à : " +somme);
+}
